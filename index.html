@@ -29,14 +29,14 @@
 
 
     
-    .profile-pic {
+ .profile-pic {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-  width: 180px;
-  height: 180px;
-  border-radius: 50%; /* گرد کردن عکس */
-  object-fit: cover;  /* جلوگیری از کشیدگی */
-  border: 3px solid 	#3d2b1f;
-  margin-bottom: 1rem;
+  width: 150px;         /* کمی کوچک‌تر شود */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3d2b1f;
+  margin-bottom: 0.3rem;  /* فاصله خیلی کم از متن */
 }
 
     
@@ -48,16 +48,16 @@
       line-height: 1.6;
     }
 
-  header {
+header {
   position: relative;
   background-image: url('cmb.jpg'); 
   background-size: cover;  
   background-position: center; 
   background-repeat: no-repeat; 
-  padding: 2rem;
+  padding: 4rem 2rem;   /* بالاتر و پایین‌تر فضای بیشتری می‌گیرد */
+  min-height: 450px;    /* ارتفاع حداقلی مشخص */
   text-align: center;
 }
-
 header h1 {
   margin: 0;
   font-size: 1.6rem;   /* کوچکتر از 2.5rem */
